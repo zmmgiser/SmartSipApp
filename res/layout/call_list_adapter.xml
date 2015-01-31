@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+ 
+    <Button 
+        android:id="@+id/button_calllist_hangup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="hang up"
+        />
+	<TextView 
+	    android:id="@+id/textview_calllist_name" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignBaseline="@id/button_calllist_hangup"
+        android:text="101"
+		/>
+	<TextView 
+	    android:id="@+id/textview_calllist_state" 
+       	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_toRightOf="@id/textview_calllist_name"
+     	android:layout_toLeftOf="@id/button_calllist_hangup"
+		android:layout_alignBaseline="@id/button_calllist_hangup"
+        android:text="disconnected"
+        android:layout_marginLeft="20dip"
+     	/>
+</RelativeLayout>
