@@ -4,12 +4,14 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
-import com.smart.smartsip.*;
+import com.smart.smartsip.SmartSipApp;
+import com.smart.smartsip.SmartSipCallInfo;
+import com.smart.smartsip.SmartSipInviteState;
+import com.smart.smartsip.SmartSipRegisterState;
 import com.smart.smartsip.videocodec.MediaCodecVideoView;
 
 import java.util.ArrayList;
@@ -17,11 +19,10 @@ import java.util.ArrayList;
 
 public class MainActivity extends Activity
 {
-    public static String TAG = "SmartSipApp";
-
+    private SmartSipApp mPjsuaInstance;
     private Handler mHandler = new Handler();
 
-    private SmartSipApp mPjsuaInstance;
+
     private ArrayList<SmartSipCallInfo> mCurrentCallList = new ArrayList<SmartSipCallInfo>();
 
     private TextView mTextViewRegisterState;
@@ -42,10 +43,12 @@ public class MainActivity extends Activity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d(TAG, "=== Activity::onCreate() ===");
+        /*Log.d(TAG, "=== Activity::onCreate() ===");*/
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //实例化Pjsua
+        mApplication app = (mApplication) getApplication();
+        mPjsuaInstance = app.getmPjsuaInstance();
+        /*//实例化Pjsua
         mPjsuaInstance = new SmartSipApp()
         {
             @Override
@@ -95,7 +98,7 @@ public class MainActivity extends Activity
                 }
                 //Log.d(TAG, "onVideoGetFrame end");
             }
-        };
+        };*/
 
 
 
@@ -115,7 +118,7 @@ public class MainActivity extends Activity
 
         mVideoView = (MediaCodecVideoView)findViewById(R.id.video_view);
 
-        mButtonInit.setOnClickListener(new View.OnClickListener()
+        /*mButtonInit.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
@@ -136,7 +139,7 @@ public class MainActivity extends Activity
                 });
                 MainActivity.this.refreshCallList();
             }
-        });
+        });*/
         mButtonDestroy.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -266,38 +269,38 @@ public class MainActivity extends Activity
 
     @Override
     protected void onStart() {
-        Log.d(TAG, "=== Activity::onStart() ===");
+       /* Log.d(TAG, "=== Activity::onStart() ===");*/
         super.onStart();
     }
 
     @Override
     protected void onRestart() {
-        Log.d(TAG, "=== Activity::onRestart() ===");
+       /* Log.d(TAG, "=== Activity::onRestart() ===");*/
         super.onRestart();
     }
 
     @Override
     protected void onResume() {
-        Log.d(TAG, "=== Activity::onResume() ===");
+        /*Log.d(TAG, "=== Activity::onResume() ===");*/
         super.onResume();
         //this.refreshCallList();
     }
 
     @Override
     protected void onPause() {
-        Log.d(TAG, "=== Activity::onPause() ===");
+       /* Log.d(TAG, "=== Activity::onPause() ===");*/
         super.onPause();
     }
 
     @Override
     protected void onStop() {
-        Log.d(TAG, "=== Activity::onStop() ===");
+       /* Log.d(TAG, "=== Activity::onStop() ===");*/
         super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-        Log.d(TAG, "=== Activity::onDestroy() ===");
+       /* Log.d(TAG, "=== Activity::onDestroy() ===");*/
         super.onDestroy();
         if(this.mPjsuaInstance != null)
         {
