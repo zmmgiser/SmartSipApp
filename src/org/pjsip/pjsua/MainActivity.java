@@ -46,8 +46,8 @@ public class MainActivity extends Activity
         /*Log.d(TAG, "=== Activity::onCreate() ===");*/
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mApplication app = (mApplication) getApplication();
-        mPjsuaInstance = app.getmPjsuaInstance();
+        SoleApplication app = (SoleApplication) getApplication();
+        mPjsuaInstance = app.getPjsuaInstance();
         /*//ÊµÀý»¯Pjsua
         mPjsuaInstance = new SmartSipApp()
         {

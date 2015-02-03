@@ -7,7 +7,7 @@ import com.smart.smartsip.SmartSipApp;
 /**
  * Created by Hiccup on 2015-02-02.
  */
-public class mApplication extends Application{
+public class SoleApplication extends Application{
 
     public static String TAG = "SmartSipApp";
     private SmartSipApp mPjsuaInstance;
@@ -67,7 +67,7 @@ public class mApplication extends Application{
         };
     }
 
-    public SmartSipApp getmPjsuaInstance()
+    public SmartSipApp getPjsuaInstance()
     {
         return mPjsuaInstance;
     }
