@@ -103,7 +103,7 @@ public class MainActivity extends Activity
 
 
         mTextViewRegisterState = (TextView)findViewById(R.id.textview_register_state);
-        mButtonInit = (Button)findViewById(R.id.button_init);
+       /* mButtonInit = (Button)findViewById(R.id.button_init);*/
         mButtonDestroy = (Button)findViewById(R.id.button_destroy);
         mButtonMakeCall = (Button)findViewById(R.id.button_makecall);
         mButtonMakeCall2 = (Button)findViewById(R.id.button_makecall2);
