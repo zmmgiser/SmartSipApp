@@ -1,465 +1,186 @@
 package org.pjsip.pjsua;
 
-import android.app.Activity;
-import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
+import android.graphics.drawable.TransitionDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.LayoutInflater;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.util.TypedValue;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.*;
-import com.smart.smartsip.SmartSipApp;
-import com.smart.smartsip.SmartSipCallInfo;
-import com.smart.smartsip.SmartSipInviteState;
-import com.smart.smartsip.SmartSipRegisterState;
-import com.smart.smartsip.videocodec.MediaCodecVideoView;
 
-import java.util.ArrayList;
+import com.astuetz.PagerSlidingTabStrip;
 
+public class MainActivity extends FragmentActivity {
 
-public class MainActivity extends Activity
-{
-    private SmartSipApp mPjsuaInstance;
-    private Handler mHandler = new Handler();
+	private final Handler handler = new Handler();
 
+	private PagerSlidingTabStrip tabs;
+	private ViewPager pager;
+	private MyPagerAdapter adapter;
 
-    private ArrayList<SmartSipCallInfo> mCurrentCallList = new ArrayList<SmartSipCallInfo>();
+	private Drawable oldBackground = null;
+	private int currentColor = 0xFF666666;
 
-    private TextView mTextViewRegisterState;
-    private Button mButtonInit;
-    private Button mButtonDestroy;
-    private Button mButtonMakeCall;
-    private Button mButtonMakeCall2;
-    private Button mButtonSendMessage;
-    private Button mButtonOptions;
-    private Button mButtonHangupAll;
-    private Button mButtonLogin;
-    private Button mButtonLogoff;
-    private EditText mEditTextTargetUrl;
-    private EditText mEditTextTargetUrl2;
-    private ListView mListViewCallList;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
 
-    private MediaCodecVideoView mVideoView;
+		tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
+		pager = (ViewPager) findViewById(R.id.pager);
+		adapter = new MyPagerAdapter(getSupportFragmentManager());
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        /*Log.d(TAG, "=== Activity::onCreate() ===");*/
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        SoleApplication app = (SoleApplication) getApplication();
-        mPjsuaInstance = app.getPjsuaInstance();
-        /*//实例化Pjsua
-        mPjsuaInstance = new SmartSipApp()
-        {
-            @Override
-            protected void onRegisterStateChanged(int state)
-            {
-                Log.d(TAG, "onRegisterStateChanged:" + state);
-                MainActivity.this.refreshRegisterState(state);
-            }
+		pager.setAdapter(adapter);
 
-            @Override
-            protected void onIncomingCall(String url)
-            {
-                Log.d(TAG, "onIncomingCall:" + url);
-            }
+		final int pageMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 4, getResources()
+				.getDisplayMetrics());
+		pager.setPageMargin(pageMargin);
 
-            @Override
-            protected void onCallStateChanged(String url, int state, String reason)
-            {
-                Log.d(TAG, "onCallStateChanged:" + url + ", state = " + state);
-                MainActivity.this.refreshCallList();
-            }
+		tabs.setViewPager(pager);
 
-            @Override
-            protected void onReceiveMessageResponse(int code, int seq, String from, String data)
-            {
-                MainActivity.this.toast("OnReceiveMessageResponse:code = " + SmartSipMessageState.getDescription(code) + ", seq = " + seq + ", from = " + from + ", data = " + data);
-            }
+		changeColor(currentColor);
+	}
 
-            @Override
-            protected String onReceiveMessageRequest(String from, String data)
-            {
-                MainActivity.this.toast("OnReceiveMessageRequest:" + from + ", data = " + data);
-                return "Hello, " + from + "," + " I am MainActivity!";
-            }
-            @Override
-            protected void onReceiveOptionsResponse(int code, String url)
-            {
-                MainActivity.this.toast("onReceiveOptionsResponse:" + url + ", state = " + SmartSipOptionsState.getDescription(code));
-            }
-            @Override
-            protected void onVideoGetFrame(byte[] data)
-            {
-                //Log.d(TAG, "onVideoGetFrame start: size = " + data.length);
-                synchronized (this)
-                {
-                    MainActivity.this.mVideoView.putFrame(data);
-                }
-                //Log.d(TAG, "onVideoGetFrame end");
-            }
-        };*/
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
 
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
 
+		switch (item.getItemId()) {
 
-        mTextViewRegisterState = (TextView)findViewById(R.id.textview_register_state);
-       /* mButtonInit = (Button)findViewById(R.id.button_init);*/
-        mButtonDestroy = (Button)findViewById(R.id.button_destroy);
-        mButtonMakeCall = (Button)findViewById(R.id.button_makecall);
-        mButtonMakeCall2 = (Button)findViewById(R.id.button_makecall2);
-        mButtonSendMessage = (Button)findViewById(R.id.button_sendim);
-        mButtonOptions = (Button)findViewById(R.id.button_options);
-        mButtonHangupAll = (Button)findViewById(R.id.button_hangupall);
-        mButtonLogin = (Button)findViewById(R.id.button_login);
-        mButtonLogoff = (Button)findViewById(R.id.button_logoff);
-        mEditTextTargetUrl = (EditText)findViewById(R.id.edittext_callurl);
-        mEditTextTargetUrl2 = (EditText)findViewById(R.id.edittext_callurl2);
-        mListViewCallList = (ListView)findViewById(R.id.listview_calllist);
+		case R.id.action_contact:
+			QuickContactFragment dialog = new QuickContactFragment();
+			dialog.show(getSupportFragmentManager(), "QuickContactFragment");
+			return true;
 
-        mVideoView = (MediaCodecVideoView)findViewById(R.id.video_view);
+		}
 
-        /*mButtonInit.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                int result = mPjsuaInstance.init();
-                if(result != 0)
-                {
-                    MainActivity.this.toast("init failed! result = " + result);
-                    return;
-                }
-                mHandler.post(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        mButtonInit.setEnabled(false);
-                    }
-                });
-                MainActivity.this.refreshCallList();
-            }
-        });*/
-        mButtonDestroy.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                int result = mPjsuaInstance.destroy();
-                if(result != 0)
-                {
-                    MainActivity.this.toast("destroy failed! result = " + result);
-                    return;
-                }
-                mHandler.post(new Runnable()
-                {
-                    @Override
-                    public void run()
-                    {
-                        mButtonInit.setEnabled(true);
-                    }
-                });
-            }
-        });
-        mButtonMakeCall.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                String target_url = mEditTextTargetUrl.getText().toString();
-                int result = mPjsuaInstance.makeCall("sip:" + target_url + "@192.168.4.25");
-                if(result != 0)
-                {
-                    MainActivity.this.toast("makeCall failed! result = " + result);
-                    return;
-                }
-            }
-        });
-        mButtonMakeCall2.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                String target_url = mEditTextTargetUrl2.getText().toString();
-                //int result = mPjsuaInstance.makeCall("sip:" + target_url);
-                int result = mPjsuaInstance.makeCall("sip:" + "wangshuo1@ekiga.net");
-                if(result != 0)
-                {
-                    MainActivity.this.toast("makeCall2 failed! result = " + result);
-                    return;
-                }
-            }
-        });
-        mButtonSendMessage.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                String target_url = mEditTextTargetUrl.getText().toString();
-                int result = mPjsuaInstance.sendMessage("sip:" + target_url + "@192.168.4.25",
-                        "text/plain", "Hello, I am MainActivity!", 1);
-                if(result != 0)
-                {
-                    MainActivity.this.toast("makeCall failed! result = " + result);
-                    return;
-                }
-            }
-        });
-        mButtonOptions.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                String target_url = mEditTextTargetUrl.getText().toString();
-                int result = mPjsuaInstance.options("sip:" + target_url + "@192.168.4.25");
-                if(result != 0)
-                {
-                    MainActivity.this.toast("options failed! result = " + result);
-                    return;
-                }
-            }
-        });
-        mButtonHangupAll.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                int result = mPjsuaInstance.hangUpAll();
-                if(result != 0)
-                {
-                    MainActivity.this.toast("hangUpAll failed! result = " + result);
-                    return;
-                }
-            }
-        });
-        mButtonLogin.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                int result = mPjsuaInstance.login("wangshuo2", "123456", "ekiga.net");
-                if(result != 0)
-                {
-                    MainActivity.this.toast("login failed! result = " + result);
-                    return;
-                }
-            }
-        });
-        mButtonLogoff.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                int result = mPjsuaInstance.logout();
-                if(result != 0)
-                {
-                    MainActivity.this.toast("logout failed! result = " + result);
-                    return;
-                }
-            }
-        });
+		return super.onOptionsItemSelected(item);
+	}
 
-        //this.mVideoView = (H264VideoView)findViewById(R.id.video_view);
-        //this.mVideoView.PlayVideo("/sdcard/test.avi");//pure.h264");
-        //this.mVideoView.setVideoPath("/sdcard/test.avi");
-        //this.mVideoView.start();
+	private void changeColor(int newColor) {
 
-    }
+		tabs.setIndicatorColor(newColor);
 
+		// change ActionBar color just if an ActionBar is available
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
 
-    @Override
-    protected void onStart() {
-       /* Log.d(TAG, "=== Activity::onStart() ===");*/
-        super.onStart();
-    }
+			Drawable colorDrawable = new ColorDrawable(newColor);
+			Drawable bottomDrawable = getResources().getDrawable(R.drawable.actionbar_bottom);
+			LayerDrawable ld = new LayerDrawable(new Drawable[] { colorDrawable, bottomDrawable });
 
-    @Override
-    protected void onRestart() {
-       /* Log.d(TAG, "=== Activity::onRestart() ===");*/
-        super.onRestart();
-    }
+			if (oldBackground == null) {
 
-    @Override
-    protected void onResume() {
-        /*Log.d(TAG, "=== Activity::onResume() ===");*/
-        super.onResume();
-        //this.refreshCallList();
-    }
+				if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1) {
+					ld.setCallback(drawableCallback);
+				} else {
+					getActionBar().setBackgroundDrawable(ld);
+				}
 
-    @Override
-    protected void onPause() {
-       /* Log.d(TAG, "=== Activity::onPause() ===");*/
-        super.onPause();
-    }
+			} else {
 
-    @Override
-    protected void onStop() {
-       /* Log.d(TAG, "=== Activity::onStop() ===");*/
-        super.onStop();
-    }
+				TransitionDrawable td = new TransitionDrawable(new Drawable[] { oldBackground, ld });
 
-    @Override
-    protected void onDestroy() {
-       /* Log.d(TAG, "=== Activity::onDestroy() ===");*/
-        super.onDestroy();
-        if(this.mPjsuaInstance != null)
-        {
-            this.mPjsuaInstance.destroy();
-            this.mPjsuaInstance = null;
-        }
-    }
+				// workaround for broken ActionBarContainer drawable handling on
+				// pre-API 17 builds
+				// https://github.com/android/platform_frameworks_base/commit/a7cc06d82e45918c37429a59b14545c6a57db4e4
+				if (Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1) {
+					td.setCallback(drawableCallback);
+				} else {
+					getActionBar().setBackgroundDrawable(td);
+				}
 
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-    }
+				td.startTransition(200);
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-    }
+			}
 
+			oldBackground = ld;
 
-    private void refreshRegisterState(final int state)
-    {
-        mHandler.post(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                mTextViewRegisterState.setText("Register Status: " + SmartSipRegisterState.getDescription(state));
-            }
-        });
-    }
+			// http://stackoverflow.com/questions/11002691/actionbar-setbackgrounddrawable-nulling-background-from-thread-handler
+			getActionBar().setDisplayShowTitleEnabled(false);
+			getActionBar().setDisplayShowTitleEnabled(true);
 
-    private void refreshCallList()
-    {
-        synchronized (this.mCurrentCallList)
-        {
-            //初始化当前列表
-            mCurrentCallList.clear();
-            SmartSipCallInfo[] calls = mPjsuaInstance.getCurrentCallList();
-            if(calls != null)
-            {
-                for (SmartSipCallInfo temp_call : calls)
-                {
-                    mCurrentCallList.add(temp_call);
-                }
-            }
-        }
-        this.refreshCallListUI();
-    }
+		}
 
-    private void refreshCallListUI()
-    {
-        mHandler.post(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                MyAdapter adapter = new MyAdapter(MainActivity.this);
-                MainActivity.this.mListViewCallList.setAdapter(adapter);
-            }
-        });
-    }
+		currentColor = newColor;
 
-    private void toast(final String message)
-    {
-        mHandler.post(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
+	}
 
+	public void onColorClicked(View v) {
 
-    public class MyAdapter extends BaseAdapter
-    {
+		int color = Color.parseColor(v.getTag().toString());
+		changeColor(color);
 
-        private LayoutInflater mInflater;
+	}
 
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		outState.putInt("currentColor", currentColor);
+	}
 
-        public MyAdapter(Context context){
-            this.mInflater = LayoutInflater.from(context);
-        }
-        @Override
-        public int getCount()
-        {
-            synchronized (MainActivity.this.mCurrentCallList)
-            {
-                return mCurrentCallList.size();
-            }
-        }
+	@Override
+	protected void onRestoreInstanceState(Bundle savedInstanceState) {
+		super.onRestoreInstanceState(savedInstanceState);
+		currentColor = savedInstanceState.getInt("currentColor");
+		changeColor(currentColor);
+	}
 
-        @Override
-        public Object getItem(int arg0)
-        {
-            synchronized (MainActivity.this.mCurrentCallList)
-            {
-                return mCurrentCallList.get(arg0);
-            }
-        }
+	private Drawable.Callback drawableCallback = new Drawable.Callback() {
+		@Override
+		public void invalidateDrawable(Drawable who) {
+			getActionBar().setBackgroundDrawable(who);
+		}
 
-        @Override
-        public long getItemId(int arg0)
-        {
-            return 0;
-        }
+		@Override
+		public void scheduleDrawable(Drawable who, Runnable what, long when) {
+			handler.postAtTime(what, when);
+		}
 
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent)
-        {
+		@Override
+		public void unscheduleDrawable(Drawable who, Runnable what) {
+			handler.removeCallbacks(what);
+		}
+	};
 
-            ViewHolder holder = null;
-            if (convertView == null)
-            {
+	public class MyPagerAdapter extends FragmentPagerAdapter {
 
-                holder =new ViewHolder();
+		private final String[] TITLES = { "Categories", "Home", "Top Paid", "Top Free", "Top Grossing", "Top New Paid",
+				"Top New Free", "Trending" };
 
-                convertView = mInflater.inflate(R.layout.call_list_adapter, null);
-                holder.name = (TextView)convertView.findViewById(R.id.textview_calllist_name);
-                holder.state = (TextView)convertView.findViewById(R.id.textview_calllist_state);
-                holder.hangup = (Button)convertView.findViewById(R.id.button_calllist_hangup);
-                convertView.setTag(holder);
+		public MyPagerAdapter(FragmentManager fm) {
+			super(fm);
+		}
 
-            }
-            else
-            {
+		@Override
+		public CharSequence getPageTitle(int position) {
+			return TITLES[position];
+		}
 
-                holder = (ViewHolder)convertView.getTag();
-            }
+		@Override
+		public int getCount() {
+			return TITLES.length;
+		}
 
-            synchronized (MainActivity.this.mCurrentCallList)
-            {
-                final SmartSipCallInfo call = MainActivity.this.mCurrentCallList.get(position);
-                holder.name.setText(call.getName());
-                holder.state.setText("state:" + SmartSipInviteState.getDescription(call.getState()));
-                holder.hangup.setOnClickListener(new View.OnClickListener()
-                {
-                    @Override
-                    public void onClick(View v)
-                    {
-                        int result = MainActivity.this.mPjsuaInstance.hangUp(call.getName());
-                        if(result != 0)
-                        {
-                            MainActivity.this.toast("hangUp " + call.getName() + " failed! result = " + result);
-                            return;
-                        }
-                    }
-                });
-            }
-            return convertView;
-        }
+		@Override
+		public Fragment getItem(int position) {
+			return SuperAwesomeCardFragment.newInstance(position);
+		}
 
+	}
 
-        private class ViewHolder
-        {
-            TextView name;
-            TextView state;
-            Button hangup;
-        }
-    }
 }

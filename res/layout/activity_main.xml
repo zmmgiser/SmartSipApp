@@ -1,142 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:orientation="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/background_tabs" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/colors"
+        android:layout_below="@+id/tabs"
+        tools:context=".MainActivity" />
+
     <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-        <Button
-                android:id="@+id/button_destroy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Destroy"
-                />
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:background="#FF666666"
+            android:onClick="onColorClicked"
+            android:tag="#FF666666" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:background="#FF96AA39"
+            android:onClick="onColorClicked"
+            android:tag="#FF96AA39" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:background="#FFC74B46"
+            android:onClick="onColorClicked"
+            android:tag="#FFC74B46" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:background="#FFF4842D"
+            android:onClick="onColorClicked"
+            android:tag="#FFF4842D" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:background="#FF3F9FE0"
+            android:onClick="onColorClicked"
+            android:tag="#FF3F9FE0" />
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="4dip"
+            android:layout_weight="1"
+            android:background="#FF5161BC"
+            android:onClick="onColorClicked"
+            android:tag="#FF5161BC" />
     </LinearLayout>
-    <TextView
-            android:id="@+id/textview_register_state"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Register Status:"
-            />
-    <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-        <Button
-                android:id="@+id/button_login"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Login"
-                />
-        <Button
-                android:id="@+id/button_logoff"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Logoff"
-                />
-    </LinearLayout>
-    <TextView
-            android:id="@+id/textview_call_state"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Call Status:"
-            />
-    <ListView
-            android:id="@+id/listview_calllist"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-    </ListView>
-    <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-        <Button
-                android:id="@+id/button_makecall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:text="Call"
-                />
-        <Button
-                android:id="@+id/button_sendim"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toLeftOf="@id/button_makecall"
-                android:text="Send"
-                />
-        <Button
-                android:id="@+id/button_options"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toLeftOf="@id/button_sendim"
-                android:text="Options"
-                />
-        <TextView
-                android:id="@+id/textview_call_url_start"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/button_makecall"
-                android:layout_alignBottom="@id/button_makecall"
-                android:layout_alignParentLeft="true"
-                android:text="sip:"
-                />
-        <TextView
-                android:id="@+id/textview_call_url_end"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_toLeftOf="@id/button_options"
-                android:text="192.168.4.25"
-                />
-        <EditText
-                android:id="@+id/edittext_callurl"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/textview_call_url_start"
-                android:layout_toLeftOf="@id/textview_call_url_end"
-                android:text="105"
-                />
-    </RelativeLayout>
-    <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-        <Button
-                android:id="@+id/button_makecall2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:text="Call"
-                />
-        <TextView
-                android:id="@+id/textview_call_url_start2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/button_makecall2"
-                android:layout_alignBottom="@id/button_makecall2"
-                android:layout_alignParentLeft="true"
-                android:text="sip:"
-                />
-        <EditText
-                android:id="@+id/edittext_callurl2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/textview_call_url_start2"
-                android:layout_toLeftOf="@id/button_makecall2"
-                android:text="192.168.1.100"
-                />
-    </RelativeLayout>
-    <Button
-            android:id="@+id/button_hangupall"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="hang Up All"
-            />
-    <com.smart.smartsip.videocodec.MediaCodecVideoView
-            android:id="@+id/video_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-</LinearLayout>
+
+</RelativeLayout>

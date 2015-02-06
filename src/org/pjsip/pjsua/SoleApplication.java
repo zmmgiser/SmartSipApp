@@ -4,9 +4,6 @@ import android.app.Application;
 import android.util.Log;
 import com.smart.smartsip.SmartSipApp;
 
-/**
- * Created by Hiccup on 2015-02-02.
- */
 public class SoleApplication extends Application{
 
     public static String TAG = "SmartSipApp";

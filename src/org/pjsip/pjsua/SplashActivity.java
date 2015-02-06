@@ -7,13 +7,10 @@ import android.os.Handler;
 import android.widget.Toast;
 import com.smart.smartsip.SmartSipApp;
 
-/**
- * Created by Hiccup on 2015-02-02.
- */
 public class SplashActivity extends Activity {
 
     private SoleApplication app;
-    private final int SPLASH_DISPLAY_LENGHT = 2000; // ÑÓ³Ù¶þÃë
+    private final int SPLASH_DISPLAY_LENGHT = 1000; // ÑÓ³Ù¶þÃë
     private Handler sHandler = new Handler();
 
     @Override
