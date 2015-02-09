@@ -29,7 +29,7 @@ public class MainActivity extends FragmentActivity {
 	private MyPagerAdapter adapter;
 
 	private Drawable oldBackground = null;
-	private int currentColor = 0xFF666666;
+	private int currentColor = 0xFF3F9FE0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +48,7 @@ public class MainActivity extends FragmentActivity {
 
 		tabs.setViewPager(pager);
 
-		/*changeColor(currentColor);*/
+		tabs.setIndicatorColor(currentColor);
 	}
 
 	@Override

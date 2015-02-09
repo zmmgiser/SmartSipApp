@@ -82,8 +82,7 @@ public class QuickContactFragment extends DialogFragment {
 
 	public class ContactPagerAdapter extends PagerAdapter implements IconTabProvider {
 
-		private final int[] ICONS = { R.drawable.ic_launcher_gplus, R.drawable.ic_launcher_gmail,
-				R.drawable.ic_launcher_gmaps, R.drawable.ic_launcher_chrome };
+		private final int[] ICONS = { R.drawable.ic_action_user};
 
 		public ContactPagerAdapter() {
 			super();
