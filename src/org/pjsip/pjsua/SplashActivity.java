@@ -17,16 +17,16 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        app = (SoleApplication) getApplication();
+       /* app = (SoleApplication) getApplication();
 
         SmartSipApp mPjsuaInstance = app.getPjsuaInstance();
         int result = mPjsuaInstance.init();
-       /* Log.d("",(result);*/
+        Log.d("",(result);
         if(result != 0)
         {
             SplashActivity.this.toast("init failed!!!!!!!!!!!!! result = " + result);
             return;
-        }
+        }*/
         SplashActivity.this.toast("init succeeded!");
         /*sHandler.post(new Runnable()
         {

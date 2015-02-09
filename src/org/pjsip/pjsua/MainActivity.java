@@ -48,7 +48,7 @@ public class MainActivity extends FragmentActivity {
 
 		tabs.setViewPager(pager);
 
-		changeColor(currentColor);
+		/*changeColor(currentColor);*/
 	}
 
 	@Override
@@ -72,7 +72,7 @@ public class MainActivity extends FragmentActivity {
 		return super.onOptionsItemSelected(item);
 	}
 
-	private void changeColor(int newColor) {
+	/*private void changeColor(int newColor) {
 
 		tabs.setIndicatorColor(newColor);
 
@@ -126,7 +126,7 @@ public class MainActivity extends FragmentActivity {
 		changeColor(color);
 
 	}
-
+*/
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
@@ -136,8 +136,8 @@ public class MainActivity extends FragmentActivity {
 	@Override
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
 		super.onRestoreInstanceState(savedInstanceState);
-		currentColor = savedInstanceState.getInt("currentColor");
-		changeColor(currentColor);
+		/*currentColor = savedInstanceState.getInt("currentColor");
+		changeColor(currentColor);*/
 	}
 
 	private Drawable.Callback drawableCallback = new Drawable.Callback() {
@@ -159,8 +159,7 @@ public class MainActivity extends FragmentActivity {
 
 	public class MyPagerAdapter extends FragmentPagerAdapter {
 
-		private final String[] TITLES = { "Categories", "Home", "Top Paid", "Top Free", "Top Grossing", "Top New Paid",
-				"Top New Free", "Trending" };
+		private final String[] TITLES = { "联系人", "电话", "短信", "设置"};
 
 		public MyPagerAdapter(FragmentManager fm) {
 			super(fm);

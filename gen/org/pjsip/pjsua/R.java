@@ -131,14 +131,13 @@ containing a value of this type.
         public static final int tabs_pattern_diagonal=0x7f020010;
     }
     public static final class id {
-        public static final int action_contact=0x7f080007;
-        public static final int button_calllist_hangup=0x7f080003;
-        public static final int colors=0x7f080002;
-        public static final int image=0x7f080006;
+        public static final int action_contact=0x7f080006;
+        public static final int button_calllist_hangup=0x7f080002;
+        public static final int image=0x7f080005;
         public static final int pager=0x7f080001;
         public static final int tabs=0x7f080000;
-        public static final int textview_calllist_name=0x7f080004;
-        public static final int textview_calllist_state=0x7f080005;
+        public static final int textview_calllist_name=0x7f080003;
+        public static final int textview_calllist_state=0x7f080004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
