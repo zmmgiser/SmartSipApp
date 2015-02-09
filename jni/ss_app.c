@@ -100,7 +100,7 @@ static void on_call_state(pjsua_call_id call_id, pjsip_event *e)
  * @return	    PJ_SUCCESS on success, or the error code.
  */
 #if defined(PJMEDIA_VIDEO_DEV_HAS_EXTEND) && (PJMEDIA_VIDEO_DEV_HAS_EXTEND == 1)
-static void video_put_frame(void **buf, pj_size_t *size)
+static void video_put_frame(void **buf, pj_size_t *size,void **low_resolution_buf,pj_size_t *low_resolution_size)
 {
 
 }

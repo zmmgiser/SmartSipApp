@@ -10,23 +10,22 @@ import com.smart.smartsip.SmartSipApp;
 public class SplashActivity extends Activity {
 
     private SoleApplication app;
-    private final int SPLASH_DISPLAY_LENGHT = 1000; // —”≥Ÿ∂˛√Î
+    private final int SPLASH_DISPLAY_LENGHT = 1000; // —”≥Ÿ“ª√Î
     private Handler sHandler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-       /* app = (SoleApplication) getApplication();
+        app = (SoleApplication) getApplication();
 
         SmartSipApp mPjsuaInstance = app.getPjsuaInstance();
         int result = mPjsuaInstance.init();
-        Log.d("",(result);
         if(result != 0)
         {
             SplashActivity.this.toast("init failed!!!!!!!!!!!!! result = " + result);
             return;
-        }*/
+        }
         SplashActivity.this.toast("init succeeded!");
         /*sHandler.post(new Runnable()
         {

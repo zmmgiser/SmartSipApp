@@ -5,7 +5,7 @@
 
 #define CUSTOM_LOG 1
 #define SIP_URL_HAS_BRACKET 0
-#define USE_LOCAL_TRANSPORT 1
+#define USE_LOCAL_TRANSPORT 0
 
 typedef enum ss_state
 {
