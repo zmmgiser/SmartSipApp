@@ -13,98 +13,59 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: org.pjsip.pjsua" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6ad5beb8-c91d-424e-8a59-2f34225ec9a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/PagerSlidingTabStrip.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_dialer.xml" />
       <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\AndroidManifest.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\R.txt" afterPath="" />
       <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\SmartSipApp.apk" afterPath="" />
       <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\QuickContactFragment$ContactPagerAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\dexedLibs\android-support-v4-457f3935fef21d7481dc8d9f41554e3f.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\dexedLibs\pagerslidingtabstrip-546cce52ec0c000dbae219ad6e649213.jar" afterPath="" />
       <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\jarlist.cache" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\account_add.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\ic_launcher_gmail.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\ic_launcher_gmaps.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\ic_launcher_gplus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\main_image.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-hdpi\app_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-ldpi\app_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-mdpi\app_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\actionbar_bottom.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\app_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\background_card.9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\contact.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\ic_action_user.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\ic_launcher_actionbar.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\ic_launcher_chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\tabs_pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\res\crunch\drawable-xhdpi\tabs_pattern_diagonal.png" afterPath="" />
       <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\resources.ap_" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\PagerSlidingTabStrip\bin\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\PagerSlidingTabStrip\bin\R.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\PagerSlidingTabStrip\bin\pagerslidingtabstrip.jar" afterPath="" />
       <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\gen\com\astuetz\pagerslidingtabstrip\R.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\libs\jar\android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\SmartSipApp.apk" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\ffmpeg\SmartFFmpeg.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\SmartSipApp.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\SmartSipAppState.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\SmartSipCallInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\SmartSipInviteState.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\SmartSipMessageState.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\SmartSipOptionsState.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\SmartSipRegisterState.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\videocodec\FFmpegVideoView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\videocodec\H264FrameFeeder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\videocodec\IFrameFeeder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\videocodec\MediaCodecVideoView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\videocodec\SocketVideoView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\com\smart\smartsip\videocodec\SocketVideoView.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\BaseActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$10.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$11.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$9.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$MyAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$MyAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity$MyAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\R.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\SoleApplication$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\SoleApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\SplashActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\SplashActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\out\production\SmartSipApp\org\pjsip\pjsua\SplashActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\res\drawable-xhdpi\account_add.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\res\drawable-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\res\drawable-xhdpi\ic_launcher_gmail.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\res\drawable-xhdpi\ic_launcher_gmaps.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\res\drawable-xhdpi\ic_launcher_gplus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\res\drawable-xhdpi\main_image.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/BuildConfig.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/classes/com/astuetz/pagerslidingtabstrip/BuildConfig.class" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/classes/com/astuetz/pagerslidingtabstrip/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment$ContactPagerAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment$ContactPagerAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$drawable.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$attr.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$attr.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$color.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$color.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$drawable.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$id.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$layout.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$menu.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$menu.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$string.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$style.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$styleable.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$styleable.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SuperAwesomeCardFragment.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SuperAwesomeCardFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-457f3935fef21d7481dc8d9f41554e3f.jar" afterPath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-457f3935fef21d7481dc8d9f41554e3f.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/dexedLibs/pagerslidingtabstrip-546cce52ec0c000dbae219ad6e649213.jar" afterPath="$PROJECT_DIR$/bin/dexedLibs/pagerslidingtabstrip-546cce52ec0c000dbae219ad6e649213.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/pagerslidingtabstrip.jar" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/pagerslidingtabstrip.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/gen/com/astuetz/pagerslidingtabstrip/BuildConfig.java" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/gen/com/astuetz/pagerslidingtabstrip/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/org/pjsip/pjsua/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/org/pjsip/pjsua/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pjsip/pjsua/QuickContactFragment.java" afterPath="$PROJECT_DIR$/src/org/pjsip/pjsua/QuickContactFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/org/pjsip/pjsua/R.java" afterPath="$PROJECT_DIR$/gen/org/pjsip/pjsua/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartSipApp.iml" afterPath="$PROJECT_DIR$/SmartSipApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/pjsip/pjsua/SuperAwesomeCardFragment.java" afterPath="$PROJECT_DIR$/src/org/pjsip/pjsua/SuperAwesomeCardFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_quick_contact.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_quick_contact.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SmartSipII.iws" />
@@ -146,80 +107,47 @@
         <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/SplashActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1298">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1709#1710#0" expanded="false" />
+                <element signature="e#1812#1813#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="550">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
+      <file leaf-file-name="fragment_dialer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/fragment_dialer.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_splash.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="286">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="2992">
+              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_quick_contact.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fragment_quick_contact.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/fragment_quick_contact.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1078">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperAwesomeCardFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/SuperAwesomeCardFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.04587156" vertical-offset="107" max-vertical-offset="946">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
+      <file leaf-file-name="QuickContactFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/QuickContactFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.135182" vertical-offset="396" max-vertical-offset="3872">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PagerSlidingTabStrip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extras/PagerSlidingTabStrip/src/com/astuetz/PagerSlidingTabStrip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="11374">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1293" max-vertical-offset="2618">
+              <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -255,6 +183,8 @@
         <option value="$PROJECT_DIR$/res/layout/call_menu.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_dialer.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_quick_contact.xml" />
       </list>
     </option>
   </component>
@@ -320,8 +250,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -372,8 +300,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,6 +379,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\android\SmartSipApp\res\layout" />
       <recent name="D:\Workspace\android\SmartSipApp\res\drawable-hdpi" />
       <recent name="D:\Workspace\android\SmartSipApp\src\libs\armeabi" />
       <recent name="D:\Workspace\android\SmartSipApp\src\libs" />
@@ -743,6 +706,8 @@
       <workItem from="1423206017966" duration="13000" />
       <workItem from="1423533466917" duration="610000" />
       <workItem from="1423534984924" duration="88000" />
+      <workItem from="1423547300699" duration="1655000" />
+      <workItem from="1423550842812" duration="1815000" />
     </task>
     <task id="LOCAL-00001">
       <created>1422519005083</created>
@@ -802,44 +767,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66698000" />
+    <option name="totallyTimeSpent" value="70168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ConsoleMavenPlugin" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3337041" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32628062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3337041" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -927,192 +892,152 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1386">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="3234">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9746">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3652">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10164">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3652">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/call_list_adapter.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10164">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3652">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/call_list_adapter.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10164">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3652">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/call_list_adapter.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10164">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3652">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/call_list_adapter.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10164">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3652">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/call_list_adapter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1298" max-vertical-offset="10164">
           <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3652">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9614">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,9 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9614">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,9 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9614">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,9 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9614">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,9 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9614">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,13 +1098,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/call_list_adapter.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://D:/Android SDK/sdk/sources/android-16/android/widget/ViewFlipper.java">
@@ -1300,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/SplashActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1298">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
@@ -1319,60 +1224,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="11374">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="286">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fragment_quick_contact.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1078">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/SuperAwesomeCardFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.135182" vertical-offset="396" max-vertical-offset="3872">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="4004">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/SuperAwesomeCardFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1606">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24175824" vertical-offset="0" max-vertical-offset="546">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048" vertical-offset="4" max-vertical-offset="550">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1188">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1709#1710#0" expanded="false" />
+            <element signature="e#1812#1813#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/pjsip/pjsua/QuickContactFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1293" max-vertical-offset="2618">
+          <caret line="86" column="63" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_dialer.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="2992">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_quick_contact.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04587156" vertical-offset="107" max-vertical-offset="946">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
