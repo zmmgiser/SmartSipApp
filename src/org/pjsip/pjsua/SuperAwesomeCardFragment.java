@@ -2,6 +2,7 @@ package org.pjsip.pjsua;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -35,24 +36,33 @@ public class SuperAwesomeCardFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+		
+		
+		/*switch (position) {
+        case 1:
+        	View CardView1 = inflater.inflate(R.layout.fragment_dialer, container, false);
+        	return CardView1;
+        default:*/
+        	LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
 
-		FrameLayout fl = new FrameLayout(getActivity());
-		fl.setLayoutParams(params);
+    		FrameLayout fl = new FrameLayout(getActivity());
+    		fl.setLayoutParams(params);
 
-		final int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources()
-				.getDisplayMetrics());
+    		final int margin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 8, getResources()
+    				.getDisplayMetrics());
 
-		TextView v = new TextView(getActivity());
-		params.setMargins(margin, margin, margin, margin);
-		v.setLayoutParams(params);
-		v.setLayoutParams(params);
-		v.setGravity(Gravity.CENTER);
-		v.setBackgroundResource(R.drawable.background_card);
-		v.setText("CARD " + (position + 1));
+    		TextView v = new TextView(getActivity());
+    		params.setMargins(margin, margin, margin, margin);
+    		v.setLayoutParams(params);
+    		v.setLayoutParams(params);
+    		v.setGravity(Gravity.CENTER);
+    		v.setBackgroundResource(R.drawable.background_card);
+    		v.setText("CARD " + (position + 1));
 
-		fl.addView(v);
-		return fl;
+    		fl.addView(v);
+    		return fl;
+		/*}*/
+		
 	}
 
 }
