@@ -20,7 +20,7 @@
         android:paddingBottom="14dip"
         android:paddingLeft="8dip"
         android:paddingTop="14dip"
-        android:text="SIP账户"
+        android:text="@string/sip_account"
         android:textColor="#FFFFFFFF"
         android:textSize="18sp" />
 

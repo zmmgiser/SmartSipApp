@@ -3,4 +3,5 @@
     <string name="app_name">SmartSip</string>
     <string name="title_activity_main">MainActivity</string>
 	<string name="action_contact">账户</string>
+	<string name="sip_account">SIP账户</string>
 </resources>
