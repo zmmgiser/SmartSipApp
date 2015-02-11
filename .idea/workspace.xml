@@ -18,46 +18,20 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: org.pjsip.pjsua" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad5beb8-c91d-424e-8a59-2f34225ec9a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extras/circular-progress-button/circular-progress-button.iml" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\R.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\jarlist.cache" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\PagerSlidingTabStrip\bin\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\PagerSlidingTabStrip\bin\R.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\PagerSlidingTabStrip\bin\pagerslidingtabstrip.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\circular-progress-button\bin\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\circular-progress-button\bin\R.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\extras\circular-progress-button\bin\circular-progress-button.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\gen\com\astuetz\pagerslidingtabstrip\R.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\gen\com\dd\circular\progress\button\R.java" afterPath="" />
+    <list default="true" id="6ad5beb8-c91d-424e-8a59-2f34225ec9a4" name="Default" comment="add circular-progress-button">
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\QuickContactFragment$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\QuickContactFragment$2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\Sample1Activity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\Sample1Activity$2.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/BuildConfig.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable$1.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable$2.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable$3.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularAnimatedDrawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$1.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$2.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$3.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$4.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$5.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$SavedState$1.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$SavedState$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$SavedState.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$SavedState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$State.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton$State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressDrawable.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/CircularProgressDrawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/classes/com/astuetz/pagerslidingtabstrip/BuildConfig.class" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/classes/com/astuetz/pagerslidingtabstrip/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/circular/progress/button/BuildConfig.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/circular/progress/button/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/FFmpegVideoView.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/FFmpegVideoView.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/H264FrameFeeder.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/H264FrameFeeder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/IFrameFeeder.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/IFrameFeeder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity$MyPagerAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity$MyPagerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/MediaCodecVideoView.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/MediaCodecVideoView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/MorphingAnimation$1.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/MorphingAnimation$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/MorphingAnimation$2.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/MorphingAnimation$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/MorphingAnimation.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/MorphingAnimation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/OnAnimationEndListener.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/OnAnimationEndListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$attr.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$attr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$attr.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$attr.class" />
@@ -82,8 +56,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/ffmpeg/SmartFFmpeg.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/ffmpeg/SmartFFmpeg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipApp.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipApp.class" />
@@ -100,15 +72,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/StateManager.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/StateManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/StrokeGradientDrawable.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/StrokeGradientDrawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SuperAwesomeCardFragment.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SuperAwesomeCardFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/gen/com/astuetz/pagerslidingtabstrip/BuildConfig.java" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/gen/com/astuetz/pagerslidingtabstrip/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/gen/com/dd/circular/progress/button/BuildConfig.java" afterPath="$PROJECT_DIR$/extras/circular-progress-button/gen/com/dd/circular/progress/button/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/org/pjsip/pjsua/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/org/pjsip/pjsua/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SmartSipApp.iml" afterPath="$PROJECT_DIR$/SmartSipApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/circular-progress-button.jar" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/circular-progress-button.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/pagerslidingtabstrip.jar" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/pagerslidingtabstrip.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/R.txt" afterPath="$PROJECT_DIR$/bin/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/R.txt" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/R.txt" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SmartSipII.iws" />
@@ -129,7 +99,7 @@
     <splitter proportion="0.4926569" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="D:\Workspace\android\SmartSipApp" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -151,7 +121,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1298">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1703#1704#0" expanded="false" />
+                <element signature="e#1806#1807#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,7 +153,7 @@
       <file leaf-file-name="ac_sample_1.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/ac_sample_1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.305026" vertical-offset="0" max-vertical-offset="836">
+            <state vertical-scroll-proportion="0.30608696" vertical-offset="0" max-vertical-offset="836">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
@@ -191,7 +165,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="2354" max-vertical-offset="3454">
               <caret line="124" column="63" selection-start-line="124" selection-start-column="63" selection-end-line="124" selection-end-column="63" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -308,6 +284,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -326,7 +312,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="gradle.compiler" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
@@ -685,7 +671,7 @@
       <workItem from="1423547300699" duration="1655000" />
       <workItem from="1423550842812" duration="1815000" />
       <workItem from="1423621697680" duration="264000" />
-      <workItem from="1423621980991" duration="117000" />
+      <workItem from="1423621980991" duration="2060000" />
     </task>
     <task id="LOCAL-00001">
       <created>1422519005083</created>
@@ -741,11 +727,17 @@
       <option name="project" value="LOCAL" />
       <updated>1423202476793</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add circular-progress-button">
+      <created>1423622402526</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1423622402526</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70549000" />
+    <option name="totallyTimeSpent" value="72492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -765,14 +757,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33259177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -806,7 +798,8 @@
     <MESSAGE value="motify the application class name" />
     <MESSAGE value="hosttab" />
     <MESSAGE value="next:how to use opensource in eclipse" />
-    <option name="LAST_COMMIT_MESSAGE" value="next:how to use opensource in eclipse" />
+    <MESSAGE value="add circular-progress-button" />
+    <option name="LAST_COMMIT_MESSAGE" value="add circular-progress-button" />
     <option name="CHANGE_BROWSER_SETTINGS">
       <map>
         <entry key="svn">
@@ -1238,7 +1231,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1188">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1703#1704#0" expanded="false" />
+            <element signature="e#1806#1807#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1246,7 +1243,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2129" max-vertical-offset="3476">
           <caret line="124" column="63" selection-start-line="124" selection-start-column="63" selection-end-line="124" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,7 +1276,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.305026" vertical-offset="0" max-vertical-offset="836">
+        <state vertical-scroll-proportion="0.30608696" vertical-offset="0" max-vertical-offset="836">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
