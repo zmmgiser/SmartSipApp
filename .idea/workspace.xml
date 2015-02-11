@@ -19,66 +19,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ad5beb8-c91d-424e-8a59-2f34225ec9a4" name="Default" comment="add circular-progress-button">
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\QuickContactFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\QuickContactFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\Sample1Activity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Workspace\android\SmartSipApp\bin\classes\org\pjsip\pjsua\Sample1Activity$2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/BuildConfig.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/classes/com/astuetz/pagerslidingtabstrip/BuildConfig.class" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/classes/com/astuetz/pagerslidingtabstrip/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/circular/progress/button/BuildConfig.class" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/classes/com/dd/circular/progress/button/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/FFmpegVideoView.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/FFmpegVideoView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/H264FrameFeeder.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/H264FrameFeeder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/IFrameFeeder.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/IFrameFeeder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity$MyPagerAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity$MyPagerAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/MediaCodecVideoView.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/MediaCodecVideoView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/QuickContactFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$attr.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$attr.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$attr.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$color.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$color.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$color.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$dimen.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$dimen.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$drawable.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$drawable.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$drawable.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$id.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$layout.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$menu.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$string.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$string.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$style.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$styleable.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$styleable.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$styleable.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R.class" afterPath="$PROJECT_DIR$/bin/classes/com/astuetz/pagerslidingtabstrip/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R.class" afterPath="$PROJECT_DIR$/bin/classes/com/dd/circular/progress/button/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/Sample1Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/ffmpeg/SmartFFmpeg.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/ffmpeg/SmartFFmpeg.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipApp.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipAppState.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipAppState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipCallInfo.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipCallInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipInviteState.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipInviteState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipMessageState.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipMessageState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipOptionsState.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipOptionsState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipRegisterState.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/SmartSipRegisterState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/SocketVideoView$1.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/SocketVideoView$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/SocketVideoView.class" afterPath="$PROJECT_DIR$/bin/classes/com/smart/smartsip/videocodec/SocketVideoView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SoleApplication$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SoleApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SoleApplication.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SoleApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$2.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SplashActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SuperAwesomeCardFragment.class" afterPath="$PROJECT_DIR$/bin/classes/org/pjsip/pjsua/SuperAwesomeCardFragment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/gen/com/astuetz/pagerslidingtabstrip/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extras/circular-progress-button/gen/com/dd/circular/progress/button/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/org/pjsip/pjsua/Manifest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/circular-progress-button.jar" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/circular-progress-button.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/pagerslidingtabstrip.jar" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/pagerslidingtabstrip.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/R.txt" afterPath="$PROJECT_DIR$/bin/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/R.txt" afterPath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/bin/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extras/circular-progress-button/bin/R.txt" afterPath="$PROJECT_DIR$/extras/circular-progress-button/bin/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SmartSipII.iws" />
@@ -291,6 +236,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pjsua" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SmartSipApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -671,7 +648,7 @@
       <workItem from="1423547300699" duration="1655000" />
       <workItem from="1423550842812" duration="1815000" />
       <workItem from="1423621697680" duration="264000" />
-      <workItem from="1423621980991" duration="2060000" />
+      <workItem from="1423621980991" duration="3639000" />
     </task>
     <task id="LOCAL-00001">
       <created>1422519005083</created>
@@ -733,11 +710,17 @@
       <option name="project" value="LOCAL" />
       <updated>1423622402526</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add circular-progress-button">
+      <created>1423624945058</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1423624945058</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72492000" />
+    <option name="totallyTimeSpent" value="74071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -793,6 +776,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="envirenment is ok" />
     <MESSAGE value="two activty to implements start with a image" />
     <MESSAGE value="motify the application class name" />
