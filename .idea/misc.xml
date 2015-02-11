@@ -28,10 +28,14 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../circular-progress-button-master" value="5687589092772" />
+      </map>
+    </option>
   </component>
-  <component name="IdProvider" IDEtalkID="33EA07EDB476EEE06622437D9FF39C23" />
+  <component name="IdProvider" IDEtalkID="01C039E641748DC93F1E4E712F2B5F9E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -149,9 +153,6 @@
       <method />
     </configuration>
     <list size="0" />
-  </component>
-  <component name="SvnBranchConfigurationManager">
-    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="masterDetails">
     <states>

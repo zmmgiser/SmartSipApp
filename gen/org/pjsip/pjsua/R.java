@@ -17,17 +17,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pstsDividerColor=0x7f010002;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int pstsDividerPadding=0x7f010005;
+        public static final int cpb_colorIndicator=0x7f010008;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -36,7 +26,16 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pstsIndicatorColor=0x7f010000;
+        public static final int cpb_colorIndicatorBackground=0x7f010009;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cpb_colorProgress=0x7f010007;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -46,29 +45,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pstsIndicatorHeight=0x7f010003;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int pstsScrollOffset=0x7f010007;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int pstsShouldExpand=0x7f010009;
+        public static final int cpb_cornerRadius=0x7f01000c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int pstsTabBackground=0x7f010008;
+        public static final int cpb_iconComplete=0x7f01000b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int cpb_iconError=0x7f01000a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -78,15 +63,51 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pstsTabPaddingLeftRight=0x7f010006;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+        public static final int cpb_paddingProgress=0x7f01000d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int cpb_selectorComplete=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int cpb_selectorError=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int cpb_selectorIdle=0x7f010000;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pstsTextAllCaps=0x7f01000a;
+        public static final int cpb_textComplete=0x7f010003;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cpb_textError=0x7f010005;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cpb_textIdle=0x7f010004;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cpb_textProgress=0x7f010006;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -95,7 +116,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pstsUnderlineColor=0x7f010001;
+        public static final int pstsDividerColor=0x7f010010;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -105,59 +126,404 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pstsUnderlineHeight=0x7f010004;
+        public static final int pstsDividerPadding=0x7f010013;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsIndicatorColor=0x7f01000e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsIndicatorHeight=0x7f010011;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsScrollOffset=0x7f010015;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsShouldExpand=0x7f010017;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int pstsTabBackground=0x7f010016;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsTabPaddingLeftRight=0x7f010014;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsTextAllCaps=0x7f010018;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsUnderlineColor=0x7f01000f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pstsUnderlineHeight=0x7f010012;
     }
     public static final class color {
-        public static final int background_tab_pressed=0x7f040000;
-        public static final int background_window=0x7f040001;
+        public static final int background_tab_pressed=0x7f040008;
+        public static final int background_window=0x7f040009;
+        public static final int cpb_blue=0x7f040001;
+        public static final int cpb_blue_dark=0x7f040002;
+        public static final int cpb_complete_state_selector=0x7f04000a;
+        public static final int cpb_error_state_selector=0x7f04000b;
+        public static final int cpb_green=0x7f040005;
+        public static final int cpb_green_dark=0x7f040006;
+        public static final int cpb_grey=0x7f040000;
+        public static final int cpb_idle_state_selector=0x7f04000c;
+        public static final int cpb_red=0x7f040003;
+        public static final int cpb_red_dark=0x7f040004;
+        public static final int cpb_white=0x7f040007;
+    }
+    public static final class dimen {
+        public static final int cpb_stroke_width=0x7f050000;
     }
     public static final class drawable {
-        public static final int account_add=0x7f020000;
-        public static final int actionbar_bottom=0x7f020001;
-        public static final int app_icon=0x7f020002;
-        public static final int background_card=0x7f020003;
-        public static final int background_tab=0x7f020004;
-        public static final int background_tabs=0x7f020005;
-        public static final int background_tabs_diagonal=0x7f020006;
-        public static final int contact=0x7f020007;
-        public static final int ic_action_user=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int ic_launcher_actionbar=0x7f02000a;
-        public static final int ic_launcher_chrome=0x7f02000b;
-        public static final int ic_launcher_gmail=0x7f02000c;
-        public static final int ic_launcher_gmaps=0x7f02000d;
-        public static final int ic_launcher_gplus=0x7f02000e;
-        public static final int main_image=0x7f02000f;
-        public static final int tabs_pattern=0x7f020010;
-        public static final int tabs_pattern_diagonal=0x7f020011;
+        public static final int actionbar_bottom=0x7f020000;
+        public static final int app_icon=0x7f020001;
+        public static final int background_card=0x7f020002;
+        public static final int background_tab=0x7f020003;
+        public static final int background_tabs=0x7f020004;
+        public static final int background_tabs_diagonal=0x7f020005;
+        public static final int contact=0x7f020006;
+        public static final int cpb_background=0x7f020007;
+        public static final int ic_action_accept=0x7f020008;
+        public static final int ic_action_cancel=0x7f020009;
+        public static final int ic_action_user=0x7f02000a;
+        public static final int ic_launcher_actionbar=0x7f02000b;
+        public static final int ic_launcher_chrome=0x7f02000c;
+        public static final int tabs_pattern=0x7f02000d;
+        public static final int tabs_pattern_diagonal=0x7f02000e;
     }
     public static final class id {
-        public static final int action_contact=0x7f080006;
-        public static final int button_calllist_hangup=0x7f080002;
-        public static final int image=0x7f080005;
-        public static final int pager=0x7f080001;
-        public static final int tabs=0x7f080000;
-        public static final int textview_calllist_name=0x7f080003;
-        public static final int textview_calllist_state=0x7f080004;
+        public static final int action_contact=0x7f090018;
+        public static final int button_calllist_hangup=0x7f090004;
+        public static final int button_hangupall=0x7f090015;
+        public static final int button_login=0x7f090008;
+        public static final int button_logoff=0x7f090009;
+        public static final int button_makecall=0x7f09000c;
+        public static final int button_makecall2=0x7f090012;
+        public static final int button_options=0x7f09000e;
+        public static final int button_sendim=0x7f09000d;
+        public static final int circularButton1=0x7f090000;
+        public static final int circularButton2=0x7f090001;
+        public static final int edittext_callurl=0x7f090011;
+        public static final int edittext_callurl2=0x7f090014;
+        public static final int image=0x7f090017;
+        public static final int listview_calllist=0x7f09000b;
+        public static final int pager=0x7f090003;
+        public static final int tabs=0x7f090002;
+        public static final int textview_call_state=0x7f09000a;
+        public static final int textview_call_url_end=0x7f090010;
+        public static final int textview_call_url_start=0x7f09000f;
+        public static final int textview_call_url_start2=0x7f090013;
+        public static final int textview_calllist_name=0x7f090005;
+        public static final int textview_calllist_state=0x7f090006;
+        public static final int textview_register_state=0x7f090007;
+        public static final int video_view=0x7f090016;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_splash=0x7f030001;
-        public static final int call_list_adapter=0x7f030002;
-        public static final int fragment_quick_contact=0x7f030003;
+        public static final int ac_sample_1=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_splash=0x7f030002;
+        public static final int call_list_adapter=0x7f030003;
+        public static final int fragment_dialer=0x7f030004;
+        public static final int fragment_quick_contact=0x7f030005;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_contact=0x7f050002;
-        public static final int app_name=0x7f050000;
-        public static final int title_activity_main=0x7f050001;
+        public static final int action_contact=0x7f06000c;
+        public static final int app_name=0x7f06000a;
+        public static final int define_circularprogressbutton=0x7f060000;
+        public static final int library_circularprogressbutton_author=0x7f060001;
+        public static final int library_circularprogressbutton_authorWebsite=0x7f060002;
+        public static final int library_circularprogressbutton_isOpenSource=0x7f060008;
+        public static final int library_circularprogressbutton_libraryDescription=0x7f060004;
+        public static final int library_circularprogressbutton_libraryName=0x7f060003;
+        public static final int library_circularprogressbutton_libraryVersion=0x7f060005;
+        public static final int library_circularprogressbutton_libraryWebsite=0x7f060006;
+        public static final int library_circularprogressbutton_licenseId=0x7f060007;
+        public static final int library_circularprogressbutton_repositoryLink=0x7f060009;
+        public static final int sip_account=0x7f06000d;
+        public static final int title_activity_main=0x7f06000b;
     }
     public static final class style {
-        public static final int AppTheme=0x7f060000;
+        public static final int AppTheme=0x7f070000;
     }
     public static final class styleable {
+        /** Attributes that can be used with a CircularProgressButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_colorIndicator org.pjsip.pjsua:cpb_colorIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_colorIndicatorBackground org.pjsip.pjsua:cpb_colorIndicatorBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_colorProgress org.pjsip.pjsua:cpb_colorProgress}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_cornerRadius org.pjsip.pjsua:cpb_cornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_iconComplete org.pjsip.pjsua:cpb_iconComplete}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_iconError org.pjsip.pjsua:cpb_iconError}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_paddingProgress org.pjsip.pjsua:cpb_paddingProgress}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_selectorComplete org.pjsip.pjsua:cpb_selectorComplete}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_selectorError org.pjsip.pjsua:cpb_selectorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_selectorIdle org.pjsip.pjsua:cpb_selectorIdle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_textComplete org.pjsip.pjsua:cpb_textComplete}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_textError org.pjsip.pjsua:cpb_textError}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_textIdle org.pjsip.pjsua:cpb_textIdle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularProgressButton_cpb_textProgress org.pjsip.pjsua:cpb_textProgress}</code></td><td></td></tr>
+           </table>
+           @see #CircularProgressButton_cpb_colorIndicator
+           @see #CircularProgressButton_cpb_colorIndicatorBackground
+           @see #CircularProgressButton_cpb_colorProgress
+           @see #CircularProgressButton_cpb_cornerRadius
+           @see #CircularProgressButton_cpb_iconComplete
+           @see #CircularProgressButton_cpb_iconError
+           @see #CircularProgressButton_cpb_paddingProgress
+           @see #CircularProgressButton_cpb_selectorComplete
+           @see #CircularProgressButton_cpb_selectorError
+           @see #CircularProgressButton_cpb_selectorIdle
+           @see #CircularProgressButton_cpb_textComplete
+           @see #CircularProgressButton_cpb_textError
+           @see #CircularProgressButton_cpb_textIdle
+           @see #CircularProgressButton_cpb_textProgress
+         */
+        public static final int[] CircularProgressButton = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d
+        };
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_colorIndicator}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_colorIndicator
+        */
+        public static final int CircularProgressButton_cpb_colorIndicator = 8;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_colorIndicatorBackground}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_colorIndicatorBackground
+        */
+        public static final int CircularProgressButton_cpb_colorIndicatorBackground = 9;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_colorProgress}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_colorProgress
+        */
+        public static final int CircularProgressButton_cpb_colorProgress = 7;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_cornerRadius}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_cornerRadius
+        */
+        public static final int CircularProgressButton_cpb_cornerRadius = 12;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_iconComplete}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.pjsip.pjsua:cpb_iconComplete
+        */
+        public static final int CircularProgressButton_cpb_iconComplete = 11;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_iconError}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.pjsip.pjsua:cpb_iconError
+        */
+        public static final int CircularProgressButton_cpb_iconError = 10;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_paddingProgress}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_paddingProgress
+        */
+        public static final int CircularProgressButton_cpb_paddingProgress = 13;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_selectorComplete}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.pjsip.pjsua:cpb_selectorComplete
+        */
+        public static final int CircularProgressButton_cpb_selectorComplete = 1;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_selectorError}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.pjsip.pjsua:cpb_selectorError
+        */
+        public static final int CircularProgressButton_cpb_selectorError = 2;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_selectorIdle}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name org.pjsip.pjsua:cpb_selectorIdle
+        */
+        public static final int CircularProgressButton_cpb_selectorIdle = 0;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_textComplete}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_textComplete
+        */
+        public static final int CircularProgressButton_cpb_textComplete = 3;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_textError}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_textError
+        */
+        public static final int CircularProgressButton_cpb_textError = 5;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_textIdle}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_textIdle
+        */
+        public static final int CircularProgressButton_cpb_textIdle = 4;
+        /**
+          <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#cpb_textProgress}
+          attribute's value can be found in the {@link #CircularProgressButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name org.pjsip.pjsua:cpb_textProgress
+        */
+        public static final int CircularProgressButton_cpb_textProgress = 6;
         /** Attributes that can be used with a PagerSlidingTabStrip.
            <p>Includes the following attributes:</p>
            <table>
@@ -189,9 +555,9 @@ containing a value of this type.
            @see #PagerSlidingTabStrip_pstsUnderlineHeight
          */
         public static final int[] PagerSlidingTabStrip = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
+            0x7f010016, 0x7f010017, 0x7f010018
         };
         /**
           <p>This symbol is the offset where the {@link org.pjsip.pjsua.R.attr#pstsDividerColor}

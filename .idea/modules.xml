@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/extras/PagerSlidingTabStrip/PagerSlidingTabStrip.iml" filepath="$PROJECT_DIR$/extras/PagerSlidingTabStrip/PagerSlidingTabStrip.iml" />
       <module fileurl="file://$PROJECT_DIR$/SmartSipApp.iml" filepath="$PROJECT_DIR$/SmartSipApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extras/circular-progress-button/circular-progress-button.iml" filepath="$PROJECT_DIR$/extras/circular-progress-button/circular-progress-button.iml" />
     </modules>
   </component>
 </project>

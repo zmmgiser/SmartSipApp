@@ -1,7 +1,5 @@
 package org.pjsip.pjsua;
 
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.TransitionDrawable;
@@ -22,13 +20,13 @@ import com.astuetz.PagerSlidingTabStrip;
 
 public class MainActivity extends FragmentActivity {
 
-	private final Handler handler = new Handler();
+	/*private final Handler handler = new Handler();*/
 
 	private PagerSlidingTabStrip tabs;
 	private ViewPager pager;
 	private MyPagerAdapter adapter;
 
-	private Drawable oldBackground = null;
+	/*private Drawable oldBackground = null;*/
 	private int currentColor = 0xFF3F9FE0;
 
 	@Override
@@ -140,7 +138,7 @@ public class MainActivity extends FragmentActivity {
 		changeColor(currentColor);*/
 	}
 
-	private Drawable.Callback drawableCallback = new Drawable.Callback() {
+	/*private Drawable.Callback drawableCallback = new Drawable.Callback() {
 		@Override
 		public void invalidateDrawable(Drawable who) {
 			getActionBar().setBackgroundDrawable(who);
@@ -155,7 +153,7 @@ public class MainActivity extends FragmentActivity {
 		public void unscheduleDrawable(Drawable who, Runnable what) {
 			handler.removeCallbacks(what);
 		}
-	};
+	};*/
 
 	public class MyPagerAdapter extends FragmentPagerAdapter {
 

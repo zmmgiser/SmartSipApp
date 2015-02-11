@@ -15,14 +15,13 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
 
-import com.astuetz.PagerSlidingTabStrip;
-import com.astuetz.PagerSlidingTabStrip.IconTabProvider;
+import com.dd.CircularProgressButton;
 
 public class QuickContactFragment extends DialogFragment {
 
-	private PagerSlidingTabStrip tabs;
+	/*private PagerSlidingTabStrip tabs;
 	private ViewPager pager;
-	private ContactPagerAdapter adapter;
+	private ContactPagerAdapter adapter;*/
 
 	public static QuickContactFragment newInstance() {
 		QuickContactFragment f = new QuickContactFragment();
@@ -37,17 +36,50 @@ public class QuickContactFragment extends DialogFragment {
 			getDialog().getWindow().setBackgroundDrawableResource(android.R.color.transparent);
 		}
 
-		View root = inflater.inflate(R.layout.fragment_quick_contact, container, false);
+		/*View root = inflater.inflate(R.layout.fragment_quick_contact, container, false);*/
 
-		tabs = (PagerSlidingTabStrip) root.findViewById(R.id.tabs);
+		/*tabs = (PagerSlidingTabStrip) root.findViewById(R.id.tabs);
 		pager = (ViewPager) root.findViewById(R.id.pager);
 		adapter = new ContactPagerAdapter();
 
 		pager.setAdapter(adapter);
 
-		tabs.setViewPager(pager);
+		tabs.setViewPager(pager);*/
 
-		return root;
+		/*return root;*/
+		View DialogFragment = inflater.inflate(R.layout.fragment_quick_contact, container, false);
+		
+		final CircularProgressButton button_login = (CircularProgressButton) DialogFragment.findViewById(R.id.button_login);
+		button_login.setIndeterminateProgressMode(true);
+		button_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (button_login.getProgress() == 0) {
+                	button_login.setProgress(50);
+                } else if (button_login.getProgress() == 100) {
+                	button_login.setProgress(0);
+                } else {
+                	button_login.setProgress(100);
+                }
+            }
+        });
+		
+		final CircularProgressButton button_logoff = (CircularProgressButton) DialogFragment.findViewById(R.id.button_logoff);
+		button_logoff.setIndeterminateProgressMode(true);
+		button_logoff.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (button_logoff.getProgress() == 0) {
+                	button_logoff.setProgress(50);
+                } else if (button_logoff.getProgress() == 100) {
+                	button_logoff.setProgress(0);
+                } else {
+                	button_logoff.setProgress(100);
+                }
+            }
+        });
+		
+    	return DialogFragment;
 	}
 
 	@SuppressWarnings("deprecation")
@@ -80,7 +112,13 @@ public class QuickContactFragment extends DialogFragment {
 		}
 	}
 
-	public class ContactPagerAdapter extends PagerAdapter implements IconTabProvider {
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+	}
+
+/*	public class ContactPagerAdapter extends PagerAdapter implements IconTabProvider {
 
 		private final int[] ICONS = { R.drawable.ic_action_user};
 
@@ -123,5 +161,6 @@ public class QuickContactFragment extends DialogFragment {
 		}
 
 	}
-
+*/
+	
 }
